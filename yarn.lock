@@ -132,12 +132,12 @@
   resolved "https://registry.yarnpkg.com/@esbuild/win32-x64/-/win32-x64-0.27.7.tgz#8fe30b3088b89b4873c3a6cc87597ae3920c0a8b"
   integrity sha512-56hiAJPhwQ1R4i+21FVF7V8kSD5zZTdHcVuRFMW0hn753vVfQN8xlx4uOPT4xoGH0Z/oVATuR82AiqSTDIpaHg==
 
-"@types/node@^20.4.8":
-  version "20.19.22"
-  resolved "https://registry.npmjs.org/@types/node/-/node-20.19.22.tgz"
-  integrity sha512-hRnu+5qggKDSyWHlnmThnUqg62l29Aj/6vcYgUaSFL9oc7DVjeWEQN3PRgdSc6F8d9QRMWkf36CLMch1Do/+RQ==
+"@types/node@^25.6.0":
+  version "25.6.0"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-25.6.0.tgz#4e09bad9b469871f2d0f68140198cbd714f4edca"
+  integrity sha512-+qIYRKdNYJwY3vRCZMdJbPLJAtGjQBudzZzdzwQYkEPQd+PJGixUL5QfvCLDaULoLv+RhT3LDkwEfKaAkgSmNQ==
   dependencies:
-    undici-types "~6.21.0"
+    undici-types "~7.19.0"
 
 dotenv@^16.4.7:
   version "16.6.1"
@@ -208,7 +208,7 @@ typescript@^5.7.3:
   resolved "https://registry.npmjs.org/typescript/-/typescript-5.9.3.tgz"
   integrity sha512-jl1vZzPDinLr9eUt3J/t7V6FgNEw9QjvBPdysz9KfQDD41fQrC2Y4vKQdiaUpFT4bXlb1RHhLpp8wtm6M5TgSw==
 
-undici-types@~6.21.0:
-  version "6.21.0"
-  resolved "https://registry.npmjs.org/undici-types/-/undici-types-6.21.0.tgz"
-  integrity sha512-iwDZqg0QAGrg9Rav5H4n0M64c3mkR59cJ6wQp+7C4nI0gsmExaedaYLNO44eT4AtBBwjbTiGPMlt2Md0T9H9JQ==
+undici-types@~7.19.0:
+  version "7.19.2"
+  resolved "https://registry.yarnpkg.com/undici-types/-/undici-types-7.19.2.tgz#1b67fc26d0f157a0cba3a58a5b5c1e2276b8ba2a"
+  integrity sha512-qYVnV5OEm2AW8cJMCpdV20CDyaN3g0AjDlOGf1OW4iaDEx8MwdtChUp4zu4H0VP3nDRF/8RKWH+IPp9uW0YGZg==
