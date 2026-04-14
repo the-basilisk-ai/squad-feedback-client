@@ -47,10 +47,11 @@ You should see output showing successful feedback submission!
 Create a new file (e.g., `my-feedback.ts`) in the `src/` directory:
 
 ```typescript
-import 'dotenv/config';
+// If using a .env file, install dotenv and uncomment the next line:
+// import 'dotenv/config';
 import { submitFeedback } from './index.js';
 
-// The API key is automatically read from process.env.SQUAD_API_KEY
+// The API key is read from process.env.SQUAD_API_KEY
 const result = await submitFeedback('This is my first feedback!');
 
 if (result.success) {
